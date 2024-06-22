@@ -38,9 +38,7 @@ Case in point:
 
 ## Issues
 
-
-
-
+~1. There's a bug in which if you have equal frequencies, it doesn't work properly(FIXED)~
 
 ~2. In the implementation, we're appending zeroes to make the bitstring length a multiple of 8. Due to this, during the decompression phase, some unwanted characters are added(At most 7). This can be fixed by storing the amount we padded in the file.~
 
@@ -51,7 +49,8 @@ Case in point:
 
 ## To Do
 
-1. Make it faster
+1. Make it faster.
+
 2. Find way to store codes efficiently
 
 ~1. Store the padded amount in the file~
@@ -59,6 +58,11 @@ Case in point:
 ~2. Store the table in the file header so that we don't need to depend externally~
 
 ~3. Fix the same frequency bug~
+
+
+
+this work is still in progress
+but it is not showing i github repository
 
 
 
